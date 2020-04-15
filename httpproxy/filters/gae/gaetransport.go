@@ -14,7 +14,7 @@ import (
 	quic "github.com/wangjiezhe/quic-go"
 	"github.com/wangjiezhe/quic-go/h2quic"
 
-	"../../helpers"
+	"github.com/wangjiezhe/httpproxy/helpers"
 )
 
 type Transport struct {

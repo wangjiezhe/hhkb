@@ -19,7 +19,7 @@ import (
 
 	"github.com/dsnet/compress/brotli"
 
-	"../../helpers"
+	"github.com/wangjiezhe/httpproxy/helpers"
 )
 
 const (

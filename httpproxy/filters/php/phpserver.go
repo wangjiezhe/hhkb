@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"../../helpers"
+	"github.com/wangjiezhe/httpproxy/helpers"
 )
 
 type Server struct {

@@ -24,8 +24,8 @@ import (
 
 	"github.com/wangjiezhe/glog"
 
-	"../../helpers"
-	"../../storage"
+	"github.com/wangjiezhe/httpproxy/helpers"
+	"github.com/wangjiezhe/httpproxy/storage"
 )
 
 const (

@@ -15,9 +15,9 @@ import (
 	"github.com/wangjiezhe/glog"
 	"github.com/wangtuanjie/ip17mon"
 
-	"../../filters"
-	"../../helpers"
-	"../../storage"
+	"github.com/wangjiezhe/httpproxy/filters"
+	"github.com/wangjiezhe/httpproxy/helpers"
+	"github.com/wangjiezhe/httpproxy/storage"
 )
 
 const (

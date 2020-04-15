@@ -10,9 +10,9 @@ import (
 	"github.com/wangjiezhe/glog"
 	"github.com/wangjiezhe/net/http2"
 
-	"../../filters"
-	"../../helpers"
-	"../../storage"
+	"github.com/wangjiezhe/httpproxy/filters"
+	"github.com/wangjiezhe/httpproxy/helpers"
+	"github.com/wangjiezhe/httpproxy/storage"
 )
 
 const (

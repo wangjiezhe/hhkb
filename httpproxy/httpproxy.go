@@ -6,19 +6,19 @@ import (
 
 	"github.com/wangjiezhe/glog"
 
-	"./filters"
-	"./helpers"
+	"github.com/wangjiezhe/hhkb/httpproxy/filters"
+	"github.com/wangjiezhe/hhkb/httpproxy/helpers"
 
-	_ "./filters/auth"
-	_ "./filters/autoproxy"
-	_ "./filters/autorange"
-	_ "./filters/direct"
-	_ "./filters/gae"
-	_ "./filters/php"
-	_ "./filters/rewrite"
-	_ "./filters/ssh2"
-	_ "./filters/stripssl"
-	_ "./filters/vps"
+	"github.com/wangjiezhe/hhkb/httpproxy/filters/auth"
+	"github.com/wangjiezhe/hhkb/httpproxy/filters/autoproxy"
+	"github.com/wangjiezhe/hhkb/httpproxy/filters/autorange"
+	"github.com/wangjiezhe/hhkb/httpproxy/filters/direct"
+	"github.com/wangjiezhe/hhkb/httpproxy/filters/gae"
+	"github.com/wangjiezhe/hhkb/httpproxy/filters/php"
+	"github.com/wangjiezhe/hhkb/httpproxy/filters/rewrite"
+	"github.com/wangjiezhe/hhkb/httpproxy/filters/ssh2"
+	"github.com/wangjiezhe/hhkb/httpproxy/filters/stripssl"
+	"github.com/wangjiezhe/hhkb/httpproxy/filters/vps"
 )
 
 type Config struct {

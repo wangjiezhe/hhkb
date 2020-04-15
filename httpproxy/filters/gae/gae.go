@@ -18,10 +18,10 @@ import (
 	quic "github.com/wangjiezhe/quic-go"
 	"github.com/wangjiezhe/quic-go/h2quic"
 
-	"../../filters"
-	"../../helpers"
-	"../../proxy"
-	"../../storage"
+	"github.com/wangjiezhe/httpproxy/filters"
+	"github.com/wangjiezhe/httpproxy/helpers"
+	"github.com/wangjiezhe/httpproxy/proxy"
+	"github.com/wangjiezhe/httpproxy/storage"
 )
 
 const (

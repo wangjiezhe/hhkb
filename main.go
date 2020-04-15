@@ -13,13 +13,13 @@ import (
 
 	"github.com/wangjiezhe/glog"
 
-	"./httpproxy"
-	"./httpproxy/filters"
-	"./httpproxy/helpers"
-	"./httpproxy/storage"
+	"github.com/wangjiezhe/hhkb/httpproxy"
+	"github.com/wangjiezhe/hhkb/httpproxy/filters"
+	"github.com/wangjiezhe/hhkb/httpproxy/helpers"
+	"github.com/wangjiezhe/hhkb/httpproxy/storage"
 
-	"./httpproxy/filters/gae"
-	"./httpproxy/filters/php"
+	"github.com/wangjiezhe/hhkb/httpproxy/filters/gae"
+	"github.com/wangjiezhe/hhkb/httpproxy/filters/php"
 )
 
 var (

@@ -11,9 +11,9 @@ import (
 	"github.com/wangjiezhe/glog"
 	"golang.org/x/crypto/ssh"
 
-	"../../filters"
-	"../../helpers"
-	"../../storage"
+	"github.com/wangjiezhe/httpproxy/filters"
+	"github.com/wangjiezhe/httpproxy/helpers"
+	"github.com/wangjiezhe/httpproxy/storage"
 )
 
 const (

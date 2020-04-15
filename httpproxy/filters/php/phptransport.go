@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"net/http"
 
-	"../../helpers"
+	"github.com/wangjiezhe/httpproxy/helpers"
 )
 
 type Transport struct {

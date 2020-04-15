@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"strings"
 
-	"../../storage"
+	"github.com/wangjiezhe/httpproxy/storage"
 )
 
 const (

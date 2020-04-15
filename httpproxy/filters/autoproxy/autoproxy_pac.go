@@ -19,7 +19,7 @@ import (
 
 	"github.com/wangjiezhe/glog"
 
-	"../../storage"
+	"github.com/wangjiezhe/httpproxy/storage"
 )
 
 const (

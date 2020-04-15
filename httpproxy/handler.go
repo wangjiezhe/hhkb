@@ -14,8 +14,8 @@ import (
 
 	"github.com/wangjiezhe/glog"
 
-	"./filters"
-	"./helpers"
+	"github.com/wangjiezhe/hhkb/httpproxy/filters"
+	"github.com/wangjiezhe/hhkb/httpproxy/helpers"
 )
 
 type Handler struct {
